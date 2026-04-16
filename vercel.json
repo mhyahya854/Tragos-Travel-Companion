@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.php", "use": "@vercel/php" },
+    { "src": "about.php", "use": "@vercel/php" },
+    { "src": "contact.php", "use": "@vercel/php" },
+    { "src": "create-group.php", "use": "@vercel/php" },
+    { "src": "edit-group.php", "use": "@vercel/php" },
+    { "src": "forgot-password.php", "use": "@vercel/php" },
+    { "src": "group-chat.php", "use": "@vercel/php" },
+    { "src": "group-details.php", "use": "@vercel/php" },
+    { "src": "groups.php", "use": "@vercel/php" },
+    { "src": "help.php", "use": "@vercel/php" },
+    { "src": "login.php", "use": "@vercel/php" },
+    { "src": "logout.php", "use": "@vercel/php" },
+    { "src": "manage-requests.php", "use": "@vercel/php" },
+    { "src": "my-groups.php", "use": "@vercel/php" },
+    { "src": "notifications.php", "use": "@vercel/php" },
+    { "src": "privacy.php", "use": "@vercel/php" },
+    { "src": "profile.php", "use": "@vercel/php" },
+    { "src": "register.php", "use": "@vercel/php" },
+    { "src": "search.php", "use": "@vercel/php" },
+    { "src": "settings.php", "use": "@vercel/php" },
+    { "src": "terms.php", "use": "@vercel/php" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
